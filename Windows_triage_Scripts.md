@@ -7,10 +7,11 @@ Este guia contém comandos essenciais de PowerShell para triagem inicial de inci
 
 ---
 
+
+```powershell
 ## 1. Investigação de Processos (Memória)
 Identificação de processos suspeitos, consumo anômalo de recursos e verificação de IDs de sistema.
 
-```powershell
 # Lista os 10 processos com maior consumo de CPU
 Get-Process | Sort-Object CPU -Descending | Select-Object -First 10
 Análise: Verificamos se processos legítimos (como svchost.exe) possuem PIDs anômalos ou se processos de usuário estão rodando na Sessão 0.
