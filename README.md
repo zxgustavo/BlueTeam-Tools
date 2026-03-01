@@ -1,2 +1,2 @@
 # BlueTeam-Tools
-Scripts e comandos de Powershell para triagem e investigação em ambientes Windows
+Repositório focado em Digital Forensics and Incident Response (DFIR). Scripts PowerShell para coleta de artefatos de memória, rede e persistência em ambientes Windows.
